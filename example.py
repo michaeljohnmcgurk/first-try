@@ -6,6 +6,7 @@ import scipy as sp
 import openturns.viewer
 import openturns.viewer as viewer
 sps=sp.special
+import login.py
 
 # an example code to add to github
 
@@ -16,3 +17,5 @@ x=y**2+1
 q=x+y
 
 k=q*x*y
+
+login.py
